@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hunter-package
+Version: 1.0.0
+Summary: A test package
+Home-page: https://github.com/ZhangYunfang/PythonPackage
+Author: Hunter Zhang
+Author-email: zhangyunfang0302@gmail.com
+Project-URL: Bug Tracker, https://github.com/ZhangYunfang/PythonPackage/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Welcome to your new python project!
+欢迎创建新Python项目
+
+### 1、目录/文件 - 说明
+
+- src: Python包源文件
+- venv: 虚拟环境
+- LICENSE: 版本授权
+- pyproject.toml: 编译系统
+- README.md: 描述文件
+- setup.py: 编译脚本
+
+### 2、打包方法
+
+- 2.1 安装 build & twine
+<pre>pip install build twine</pre>
+
+- 2.2 构建测试包
+<pre>python -m build</pre>

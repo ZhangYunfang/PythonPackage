@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hunter_package/__init__.py
+src/hunter_package/test.py
+src/hunter_package.egg-info/PKG-INFO
+src/hunter_package.egg-info/SOURCES.txt
+src/hunter_package.egg-info/dependency_links.txt
+src/hunter_package.egg-info/top_level.txt
