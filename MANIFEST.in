@@ -1,0 +1,3 @@
+include src/log.conf
+include src/requirements.txt
+recursive-include src/docs *

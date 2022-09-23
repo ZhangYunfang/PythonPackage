@@ -1,7 +1,10 @@
 LICENSE
+MANIFEST.in
 README.md
 pyproject.toml
 setup.py
+src/log.conf
+src/requirements.txt
 src/hunter_package/__init__.py
 src/hunter_package/test.py
 src/hunter_package.egg-info/PKG-INFO

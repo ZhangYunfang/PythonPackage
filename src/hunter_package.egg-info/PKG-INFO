@@ -5,7 +5,9 @@ Summary: A test package
 Home-page: https://github.com/ZhangYunfang/PythonPackage
 Author: Hunter Zhang
 Author-email: zhangyunfang0302@gmail.com
+License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/ZhangYunfang/PythonPackage/issues
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -31,4 +33,21 @@ Welcome to your new python project!
 <pre>pip install build twine</pre>
 
 - 2.2 构建测试包
-<pre>python -m build</pre>
+  - 2.2.1 编译
+    <pre>python -m build</pre>
+  - 2.2.2 打包
+    <pre>
+    python setup.py sdist bdist_wheel
+    </pre>
+
+- 2.3 安装测试
+<pre>pip install .\dist\hunter_package-1.0.0.tar.gz</pre>
+
+- 2.4 发布至PiPy
+<pre>
+python -m twine upload dist/*
+python -m twine upload dist/* --skip-existing
+python -m twine upload dist/* --skip-verbose
+</pre>
+
+
