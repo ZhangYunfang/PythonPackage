@@ -16,7 +16,12 @@ Welcome to your new python project!
 <pre>pip install build twine</pre>
 
 - 2.2 构建测试包
-<pre>python -m build</pre>
+  - 2.2.1 编译
+    <pre>python -m build</pre>
+  - 2.2.2 打包
+    <pre>
+    python setup.py sdist bdist_wheel
+    </pre>
 
 - 2.3 安装测试
 <pre>pip install .\dist\hunter_package-1.0.0.tar.gz</pre>
